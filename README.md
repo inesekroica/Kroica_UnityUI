@@ -14,7 +14,7 @@ Unity 2D projekts, kas nodrošina tēla apģērbšanu un tā aprīkojuma izvēli
 
 \- \[X] Pievienot pogu kas ievadīto informāciju izvada teksta laukā un izvada aprēķināto vecumu.
 
-\- \[] Pievienot divus tēlus, pievienot Dropdown kas nodrošina iespēju starp tiem pārslēgties.
+\- \[X] Pievienot divus tēlus, pievienot Dropdown kas nodrošina iespēju starp tiem pārslēgties.
 
 \- \[] Izveidot apģērbu un aprīkojuma kategorijas (vismaz 3 gab katrā kategorijā).
 
@@ -22,7 +22,7 @@ Unity 2D projekts, kas nodrošina tēla apģērbšanu un tā aprīkojuma izvēli
 
 \- \[] Nodrošināt apģērba pārvietošanu ar peli pēc drag and drop principa.
 
-\- \[] Pievienot fona mūziku un pogu klikšķu skaņas.
+\- \[X] Pievienot fona mūziku un pogu klikšķu skaņas.
 
 \- \[] Pievienot tēliem skaņas efektus.
 
