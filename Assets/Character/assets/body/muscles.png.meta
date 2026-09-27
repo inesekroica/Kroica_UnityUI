@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 3bb41dbdac723b54eb7f5fb314bdcac4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1906147337577220070
+    second: muscles_0
+  - first:
+      213: -6062988229783192886
+    second: muscles_1
+  - first:
+      213: 3354699669005241836
+    second: muscles_2
+  - first:
+      213: -6798727050853718446
+    second: muscles_3
+  - first:
+      213: 4530361400145763509
+    second: muscles_4
+  - first:
+      213: -6849092106494881599
+    second: muscles_5
+  - first:
+      213: -5283510234022376797
+    second: muscles_6
+  - first:
+      213: -5423686665707421693
+    second: muscles_7
+  - first:
+      213: 5105967933945757175
+    second: muscles_8
+  - first:
+      213: 2962327106658245058
+    second: muscles_9
+  - first:
+      213: -2164728048761700100
+    second: muscles_10
+  - first:
+      213: 505204795146283962
+    second: muscles_11
+  - first:
+      213: -4401074576557809386
+    second: muscles_12
+  - first:
+      213: -3916501525569415392
+    second: muscles_13
+  - first:
+      213: 3774357980659374042
+    second: muscles_14
+  - first:
+      213: 6886405948886205760
+    second: muscles_15
+  - first:
+      213: -152086215019857635
+    second: muscles_16
+  - first:
+      213: -8057417479127898324
+    second: muscles_17
+  - first:
+      213: -2676600178103284596
+    second: muscles_18
+  - first:
+      213: 4784479882557017066
+    second: muscles_19
+  - first:
+      213: 4653196884382865302
+    second: muscles_20
+  - first:
+      213: 6131413056641501321
+    second: muscles_21
+  - first:
+      213: 1811595466842707124
+    second: muscles_22
+  - first:
+      213: 8681918738892856322
+    second: muscles_23
+  - first:
+      213: 458119434521870356
+    second: muscles_24
+  - first:
+      213: 1036022240249702347
+    second: muscles_25
+  - first:
+      213: -8501724246320059024
+    second: muscles_26
+  - first:
+      213: 4801353507322434106
+    second: muscles_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: muscles_0
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 308
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7c8d187eef37a10800000000000000
+      internalID: 1906147337577220070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 314
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acaf56ef350fbdba0800000000000000
+      internalID: -6062988229783192886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_2
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 315
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced8d2333994e8e20800000000000000
+      internalID: 3354699669005241836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 311
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2566609b4c116a1a0800000000000000
+      internalID: -6798727050853718446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_4
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 275
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc54d7c0b31fde30800000000000000
+      internalID: 4530361400145763509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 266
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0d076640323f0a0800000000000000
+      internalID: -6849092106494881599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_6
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 252
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa84f57f633da6b0800000000000000
+      internalID: -5283510234022376797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_7
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 259
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3008c75a6b13bb4b0800000000000000
+      internalID: -5423686665707421693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_8
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 232
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd3f5988ca0cd640800000000000000
+      internalID: 5105967933945757175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_9
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 238
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c910e4fecc4c1920800000000000000
+      internalID: 2962327106658245058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 250
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf00c321f4755f1e0800000000000000
+      internalID: -2164728048761700100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_11
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 242
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abba481a519d20700800000000000000
+      internalID: 505204795146283962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_12
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 233
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611e4429dfd3ce2c0800000000000000
+      internalID: -4401074576557809386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 231
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027d82eec9ac5a9c0800000000000000
+      internalID: -3916501525569415392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_14
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 237
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7dc540696316430800000000000000
+      internalID: 3774357980659374042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_15
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 232
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045cf7a89bd619f50800000000000000
+      internalID: 6886405948886205760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_16
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 240
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19f18aa46ea3edf0800000000000000
+      internalID: -152086215019857635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_17
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 227
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27ee852e7d4e2090800000000000000
+      internalID: -8057417479127898324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_18
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 219
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c086ab15ecadad0800000000000000
+      internalID: -2676600178103284596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_19
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 225
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb40da9a13e56240800000000000000
+      internalID: 4784479882557017066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_20
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 227
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6975893a9e9739040800000000000000
+      internalID: 4653196884382865302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_21
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 198
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9880f4c70b7271550800000000000000
+      internalID: 6131413056641501321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_22
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 146
+        width: 13
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b41ed59a74142910800000000000000
+      internalID: 1811595466842707124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_23
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 136
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c1480281f5c7870800000000000000
+      internalID: 8681918738892856322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_24
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 139
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410016fc2319b5600800000000000000
+      internalID: 458119434521870356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_25
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 145
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7ec790db0b06e00800000000000000
+      internalID: 1036022240249702347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_26
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 92
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d64cf87dec30a80800000000000000
+      internalID: -8501724246320059024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muscles_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 99
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3297058395d1a240800000000000000
+      internalID: 4801353507322434106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      muscles_0: 1906147337577220070
+      muscles_1: -6062988229783192886
+      muscles_10: -2164728048761700100
+      muscles_11: 505204795146283962
+      muscles_12: -4401074576557809386
+      muscles_13: -3916501525569415392
+      muscles_14: 3774357980659374042
+      muscles_15: 6886405948886205760
+      muscles_16: -152086215019857635
+      muscles_17: -8057417479127898324
+      muscles_18: -2676600178103284596
+      muscles_19: 4784479882557017066
+      muscles_2: 3354699669005241836
+      muscles_20: 4653196884382865302
+      muscles_21: 6131413056641501321
+      muscles_22: 1811595466842707124
+      muscles_23: 8681918738892856322
+      muscles_24: 458119434521870356
+      muscles_25: 1036022240249702347
+      muscles_26: -8501724246320059024
+      muscles_27: 4801353507322434106
+      muscles_3: -6798727050853718446
+      muscles_4: 4530361400145763509
+      muscles_5: -6849092106494881599
+      muscles_6: -5283510234022376797
+      muscles_7: -5423686665707421693
+      muscles_8: 5105967933945757175
+      muscles_9: 2962327106658245058
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

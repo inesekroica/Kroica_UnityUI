@@ -6,9 +6,9 @@ Unity 2D projekts, kas nodrošina tēla apģērbšanu un tā aprīkojuma izvēli
 
 \*\*To-do list:\*\*
 
-\- \[] Izstrādāt sākuma ainu ar pogām Start un Quit.
+\- \[X] Izstrādāt sākuma ainu ar pogām Start un Quit.
 
-\- \[] Nospiežot pogu Start pārslēgties uz nākošo ainu
+\- \[X] Nospiežot pogu Start pārslēgties uz nākošo ainu
 
 \- \[] Pievienot ievades laukus tēla vārdam un dz. datumam.
 
