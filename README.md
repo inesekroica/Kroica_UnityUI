@@ -10,9 +10,9 @@ Unity 2D projekts, kas nodrošina tēla apģērbšanu un tā aprīkojuma izvēli
 
 \- \[X] Nospiežot pogu Start pārslēgties uz nākošo ainu
 
-\- \[] Pievienot ievades laukus tēla vārdam un dz. datumam.
+\- \[X] Pievienot ievades laukus tēla vārdam un dz. datumam.
 
-\- \[] Pievienot pogu kas ievadīto informāciju izvada teksta laukā un izvada aprēķināto vecumu.
+\- \[X] Pievienot pogu kas ievadīto informāciju izvada teksta laukā un izvada aprēķināto vecumu.
 
 \- \[] Pievienot divus tēlus, pievienot Dropdown kas nodrošina iespēju starp tiem pārslēgties.
 
