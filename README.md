@@ -16,9 +16,9 @@ Unity 2D projekts, kas nodrošina tēla apģērbšanu un tā aprīkojuma izvēli
 
 \- \[X] Pievienot divus tēlus, pievienot Dropdown kas nodrošina iespēju starp tiem pārslēgties.
 
-\- \[] Izveidot apģērbu un aprīkojuma kategorijas (vismaz 3 gab katrā kategorijā).
+\- \[X] Izveidot apģērbu un aprīkojuma kategorijas (vismaz 3 gab katrā kategorijā).
 
-\- \[] Ar Toggle pogām nodrošināt kategoriju parādīšanu un paslēpšanu.
+\- \[X] Ar Toggle pogām nodrošināt kategoriju parādīšanu un paslēpšanu.
 
 \- \[] Nodrošināt apģērba pārvietošanu ar peli pēc drag and drop principa.
 
