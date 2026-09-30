@@ -7,13 +7,11 @@ public class ScriptCharacter : MonoBehaviour
     public GameObject maleCharacter;
     public GameObject femaleCharacter;
 
-    private void Start()
-    {
+    private void Start() {
         ShowCharacter();
     }
 
-    public void ShowCharacter()
-    {
+    public void ShowCharacter() {
         int x = characterDropdown.GetComponent<TMP_Dropdown>().value;
 
         maleCharacter.SetActive(x == 0);

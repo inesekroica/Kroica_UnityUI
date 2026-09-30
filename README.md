@@ -20,7 +20,7 @@ Unity 2D projekts, kas nodrošina tēla apģērbšanu un tā aprīkojuma izvēli
 
 \- \[X] Ar Toggle pogām nodrošināt kategoriju parādīšanu un paslēpšanu.
 
-\- \[] Nodrošināt apģērba pārvietošanu ar peli pēc drag and drop principa.
+\- \[X] Nodrošināt apģērba pārvietošanu ar peli pēc drag and drop principa.
 
 \- \[X] Pievienot fona mūziku un pogu klikšķu skaņas.
 

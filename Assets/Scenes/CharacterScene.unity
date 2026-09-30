@@ -119,81 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &57296339
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 57296340}
-  - component: {fileID: 57296342}
-  - component: {fileID: 57296341}
-  m_Layer: 5
-  m_Name: Panel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &57296340
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 57296339}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1071514356}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -750, y: 0}
-  m_SizeDelta: {x: 1300, y: 1600}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &57296341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 57296339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &57296342
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 57296339}
-  m_CullTransparentMesh: 1
 --- !u!1 &67843551
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,7 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -257,7 +182,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 67843551}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
@@ -267,11 +192,11 @@ RectTransform:
   - {fileID: 312529786}
   - {fileID: 606421309}
   - {fileID: 503108784}
-  m_Father: {fileID: 1071514356}
+  m_Father: {fileID: 1746855280}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 440, y: 600}
+  m_AnchoredPosition: {x: 370.11, y: 500.02002}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &68005109
@@ -309,6 +234,8 @@ RectTransform:
   - {fileID: 880744299}
   - {fileID: 441876318}
   - {fileID: 1686259574}
+  - {fileID: 308333059}
+  - {fileID: 664483435}
   m_Father: {fileID: 1071514356}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1054,7 +981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1219,7 +1146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1254,6 +1181,7 @@ GameObject:
   - component: {fileID: 286196424}
   - component: {fileID: 286196426}
   - component: {fileID: 286196425}
+  - component: {fileID: 286196427}
   m_Layer: 5
   m_Name: Bottom2
   m_TagString: Untagged
@@ -1318,6 +1246,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286196423}
   m_CullTransparentMesh: 1
+--- !u!114 &286196427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286196423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &286805045
 GameObject:
   m_ObjectHideFlags: 0
@@ -1466,7 +1407,7 @@ GameObject:
   - component: {fileID: 308333059}
   - component: {fileID: 308333060}
   m_Layer: 5
-  m_Name: TogglesCattegory
+  m_Name: TogglesCategory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1479,18 +1420,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 308333058}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 827990388}
   - {fileID: 1602635701}
-  m_Father: {fileID: 1071514356}
+  m_Father: {fileID: 68005110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 679.7588, y: -559.49976}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &308333060
@@ -1557,7 +1498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1592,6 +1533,7 @@ GameObject:
   - component: {fileID: 399806425}
   - component: {fileID: 399806427}
   - component: {fileID: 399806426}
+  - component: {fileID: 399806428}
   m_Layer: 5
   m_Name: Bottom3
   m_TagString: Untagged
@@ -1656,6 +1598,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399806424}
   m_CullTransparentMesh: 1
+--- !u!114 &399806428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399806424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &441876317
 GameObject:
   m_ObjectHideFlags: 0
@@ -1690,9 +1645,9 @@ RectTransform:
   - {fileID: 1327876023}
   m_Father: {fileID: 68005110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -121.92, y: -70}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1258.8, y: -70}
   m_SizeDelta: {x: 140, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &441876319
@@ -1852,7 +1807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2131,7 +2086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2303,6 +2258,7 @@ GameObject:
   - component: {fileID: 648377655}
   - component: {fileID: 648377657}
   - component: {fileID: 648377656}
+  - component: {fileID: 648377658}
   m_Layer: 5
   m_Name: Gloves3
   m_TagString: Untagged
@@ -2367,6 +2323,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 648377654}
   m_CullTransparentMesh: 1
+--- !u!114 &648377658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648377654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &664483434
 GameObject:
   m_ObjectHideFlags: 0
@@ -2393,7 +2362,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664483434}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2401,11 +2370,11 @@ RectTransform:
   - {fileID: 633395576}
   - {fileID: 144783794}
   - {fileID: 817635177}
-  m_Father: {fileID: 1071514356}
+  m_Father: {fileID: 68005110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 287, y: -516}
+  m_AnchoredPosition: {x: 217.10547, y: -418.26294}
   m_SizeDelta: {x: 350, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &664483436
@@ -2542,6 +2511,7 @@ GameObject:
   - component: {fileID: 667421651}
   - component: {fileID: 667421653}
   - component: {fileID: 667421652}
+  - component: {fileID: 667421654}
   m_Layer: 5
   m_Name: Bottom1
   m_TagString: Untagged
@@ -2606,6 +2576,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667421650}
   m_CullTransparentMesh: 1
+--- !u!114 &667421654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667421650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &669843839
 GameObject:
   m_ObjectHideFlags: 0
@@ -3148,6 +3131,7 @@ GameObject:
   - component: {fileID: 715364959}
   - component: {fileID: 715364961}
   - component: {fileID: 715364960}
+  - component: {fileID: 715364962}
   m_Layer: 5
   m_Name: Top1
   m_TagString: Untagged
@@ -3212,6 +3196,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 715364958}
   m_CullTransparentMesh: 1
+--- !u!114 &715364962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715364958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &752002650
 GameObject:
   m_ObjectHideFlags: 0
@@ -3263,7 +3260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -3530,7 +3527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -3677,7 +3674,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 859050094}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3687,11 +3684,11 @@ RectTransform:
   - {fileID: 752002651}
   - {fileID: 259706276}
   - {fileID: 236392802}
-  m_Father: {fileID: 1071514356}
+  m_Father: {fileID: 1746855280}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 440, y: 600}
+  m_AnchoredPosition: {x: 370.11, y: 500.02002}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &859050096
@@ -3708,7 +3705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -3779,6 +3776,7 @@ GameObject:
   - component: {fileID: 865092285}
   - component: {fileID: 865092287}
   - component: {fileID: 865092286}
+  - component: {fileID: 865092288}
   m_Layer: 5
   m_Name: Shoes2
   m_TagString: Untagged
@@ -3843,6 +3841,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865092284}
   m_CullTransparentMesh: 1
+--- !u!114 &865092288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865092284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &880744298
 GameObject:
   m_ObjectHideFlags: 0
@@ -4418,6 +4429,7 @@ GameObject:
   - component: {fileID: 1020204806}
   - component: {fileID: 1020204808}
   - component: {fileID: 1020204807}
+  - component: {fileID: 1020204809}
   m_Layer: 5
   m_Name: Gloves1
   m_TagString: Untagged
@@ -4482,6 +4494,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020204805}
   m_CullTransparentMesh: 1
+--- !u!114 &1020204809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020204805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &1024891473
 GameObject:
   m_ObjectHideFlags: 0
@@ -4533,7 +4558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -4568,6 +4593,7 @@ GameObject:
   - component: {fileID: 1053947327}
   - component: {fileID: 1053947329}
   - component: {fileID: 1053947328}
+  - component: {fileID: 1053947330}
   m_Layer: 5
   m_Name: Dress2
   m_TagString: Untagged
@@ -4632,6 +4658,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053947326}
   m_CullTransparentMesh: 1
+--- !u!114 &1053947330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053947326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &1071514352
 GameObject:
   m_ObjectHideFlags: 0
@@ -4727,14 +4766,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 211015362}
-  - {fileID: 68005110}
-  - {fileID: 859050095}
-  - {fileID: 67843554}
-  - {fileID: 664483435}
-  - {fileID: 308333059}
-  - {fileID: 57296340}
+  - {fileID: 1746855280}
   - {fileID: 822950925}
   - {fileID: 1309694635}
+  - {fileID: 68005110}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4793,7 +4828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -4903,6 +4938,7 @@ GameObject:
   - component: {fileID: 1158183592}
   - component: {fileID: 1158183594}
   - component: {fileID: 1158183593}
+  - component: {fileID: 1158183595}
   m_Layer: 5
   m_Name: Top2
   m_TagString: Untagged
@@ -4967,6 +5003,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158183591}
   m_CullTransparentMesh: 1
+--- !u!114 &1158183595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158183591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &1186232196
 GameObject:
   m_ObjectHideFlags: 0
@@ -5018,7 +5067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -5279,6 +5328,7 @@ GameObject:
   - component: {fileID: 1289756178}
   - component: {fileID: 1289756180}
   - component: {fileID: 1289756179}
+  - component: {fileID: 1289756181}
   m_Layer: 5
   m_Name: Accessories1
   m_TagString: Untagged
@@ -5343,6 +5393,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289756177}
   m_CullTransparentMesh: 1
+--- !u!114 &1289756181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289756177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &1293123180
 GameObject:
   m_ObjectHideFlags: 0
@@ -5354,6 +5417,7 @@ GameObject:
   - component: {fileID: 1293123181}
   - component: {fileID: 1293123183}
   - component: {fileID: 1293123182}
+  - component: {fileID: 1293123184}
   m_Layer: 5
   m_Name: Accessories2
   m_TagString: Untagged
@@ -5418,6 +5482,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1293123180}
   m_CullTransparentMesh: 1
+--- !u!114 &1293123184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293123180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &1309694634
 GameObject:
   m_ObjectHideFlags: 0
@@ -5478,7 +5555,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -5808,6 +5885,7 @@ GameObject:
   - component: {fileID: 1585451655}
   - component: {fileID: 1585451657}
   - component: {fileID: 1585451656}
+  - component: {fileID: 1585451658}
   m_Layer: 5
   m_Name: Dress1
   m_TagString: Untagged
@@ -5872,6 +5950,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585451654}
   m_CullTransparentMesh: 1
+--- !u!114 &1585451658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585451654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &1595124161
 GameObject:
   m_ObjectHideFlags: 0
@@ -5883,6 +5974,7 @@ GameObject:
   - component: {fileID: 1595124162}
   - component: {fileID: 1595124164}
   - component: {fileID: 1595124163}
+  - component: {fileID: 1595124165}
   m_Layer: 5
   m_Name: Shoes3
   m_TagString: Untagged
@@ -5947,6 +6039,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595124161}
   m_CullTransparentMesh: 1
+--- !u!114 &1595124165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595124161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &1602635700
 GameObject:
   m_ObjectHideFlags: 0
@@ -6056,6 +6161,7 @@ GameObject:
   - component: {fileID: 1610357528}
   - component: {fileID: 1610357530}
   - component: {fileID: 1610357529}
+  - component: {fileID: 1610357531}
   m_Layer: 5
   m_Name: Accessories3
   m_TagString: Untagged
@@ -6120,6 +6226,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610357527}
   m_CullTransparentMesh: 1
+--- !u!114 &1610357531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610357527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &1657494987
 GameObject:
   m_ObjectHideFlags: 0
@@ -6241,9 +6360,9 @@ RectTransform:
   - {fileID: 696276511}
   m_Father: {fileID: 68005110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -121.92, y: -153}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1258.8, y: -169}
   m_SizeDelta: {x: 140, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1686259575
@@ -6352,6 +6471,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686259573}
   m_CullTransparentMesh: 1
+--- !u!1 &1746855279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1746855280}
+  - component: {fileID: 1746855282}
+  - component: {fileID: 1746855281}
+  m_Layer: 5
+  m_Name: PanelCharacter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1746855280
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746855279}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 67843554}
+  - {fileID: 859050095}
+  m_Father: {fileID: 1071514356}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 760.24, y: 640.98}
+  m_SizeDelta: {x: 1380.7, y: 1082}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1746855281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746855279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1746855282
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746855279}
+  m_CullTransparentMesh: 1
 --- !u!1 &1888718736
 GameObject:
   m_ObjectHideFlags: 0
@@ -6363,6 +6559,7 @@ GameObject:
   - component: {fileID: 1888718737}
   - component: {fileID: 1888718739}
   - component: {fileID: 1888718738}
+  - component: {fileID: 1888718740}
   m_Layer: 5
   m_Name: Gloves2
   m_TagString: Untagged
@@ -6427,6 +6624,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1888718736}
   m_CullTransparentMesh: 1
+--- !u!114 &1888718740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888718736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &1914209636
 GameObject:
   m_ObjectHideFlags: 0
@@ -6478,7 +6688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6642,6 +6852,7 @@ GameObject:
   - component: {fileID: 1950106431}
   - component: {fileID: 1950106433}
   - component: {fileID: 1950106432}
+  - component: {fileID: 1950106434}
   m_Layer: 5
   m_Name: Top3
   m_TagString: Untagged
@@ -6706,6 +6917,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950106430}
   m_CullTransparentMesh: 1
+--- !u!114 &1950106434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950106430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &1982079186
 GameObject:
   m_ObjectHideFlags: 0
@@ -6792,6 +7016,7 @@ GameObject:
   - component: {fileID: 1998785781}
   - component: {fileID: 1998785783}
   - component: {fileID: 1998785782}
+  - component: {fileID: 1998785784}
   m_Layer: 5
   m_Name: Shoes1
   m_TagString: Untagged
@@ -6856,6 +7081,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1998785780}
   m_CullTransparentMesh: 1
+--- !u!114 &1998785784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998785780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &2020362639
 GameObject:
   m_ObjectHideFlags: 0
@@ -6867,6 +7105,7 @@ GameObject:
   - component: {fileID: 2020362640}
   - component: {fileID: 2020362642}
   - component: {fileID: 2020362641}
+  - component: {fileID: 2020362643}
   m_Layer: 5
   m_Name: Dress3
   m_TagString: Untagged
@@ -6931,6 +7170,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2020362639}
   m_CullTransparentMesh: 1
+--- !u!114 &2020362643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020362639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e0f15698e0c4891cd591942a2b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptDragDrop
+  wornClothes: {fileID: 1746855279}
 --- !u!1 &2056617360
 GameObject:
   m_ObjectHideFlags: 0
