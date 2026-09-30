@@ -24,7 +24,7 @@ Unity 2D projekts, kas nodrošina tēla apģērbšanu un tā aprīkojuma izvēli
 
 \- \[X] Pievienot fona mūziku un pogu klikšķu skaņas.
 
-\- \[] Pievienot tēliem skaņas efektus.
+\- \[X] Pievienot tēliem skaņas efektus.
 
 \- \[] Izveidot Scroll View ar izvēlētā tēla aprakstu, mainot tēlu, automātiski nomainīt arī tā aprakstu.
 
