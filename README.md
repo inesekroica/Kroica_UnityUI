@@ -26,7 +26,7 @@ Unity 2D projekts, kas nodrošina tēla apģērbšanu un tā aprīkojuma izvēli
 
 \- \[X] Pievienot tēliem skaņas efektus.
 
-\- \[] Izveidot Scroll View ar izvēlētā tēla aprakstu, mainot tēlu, automātiski nomainīt arī tā aprakstu.
+\- \[X] Izveidot Scroll View ar izvēlētā tēla aprakstu, mainot tēlu, automātiski nomainīt arī tā aprakstu.
 
 \- \[] Pievienot Slider tēla garuma vai platuma maiņai.
 
