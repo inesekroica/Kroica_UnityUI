@@ -5,11 +5,7 @@ using System.Collections;
 public class ScriptSceneChange : MonoBehaviour
 {
     public void QuitApplication() {
-        if (UnityEditor.EditorApplication.isPlaying) {
-            UnityEditor.EditorApplication.isPlaying = false;
-        } else {
             Application.Quit();
-        }
     }
 
     public void LoadSceneDelay(string sceneName) {
