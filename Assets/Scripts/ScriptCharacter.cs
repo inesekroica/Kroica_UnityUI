@@ -9,20 +9,20 @@ public class ScriptCharacter : MonoBehaviour
     public GameObject characterDescription;
 
     private string maleDescription =
-            "Esmu zinātkārs un enerģisks piedzīvojumu meklētājs. " +
-            "Man patīk izpētīt jaunas vietas, doties pārgājienos un " +
-            "izmēģināt lietas, ko iepriekš neesmu darījis.\n\n" +
-            "Brīvajā laikā braucu ar velosipēdu, klausos mūziku " +
-            "un tiekos ar draugiem. Es labprāt palīdzu citiem un " +
-            "sarežģītās situācijās cenšos atrast praktisku risinājumu.";
+        "I am a curious and energetic adventurer. " +
+        "I enjoy exploring new places, going on hikes, and " +
+        "trying things I have never done before.\n\n" +
+        "In my free time, I ride my bike, listen to music, " +
+        "and spend time with friends. I am happy to help others and " +
+        "try to find practical solutions in difficult situations.";
 
     private string femaleDescription =
-            "Esmu radoša un uzņēmīga piedzīvojumu meklētāja. " +
-            "Man patīk fotografēt, iepazīt jaunas vietas un " +
-            "pamanīt neparastas detaļas ikdienā.\n\n" +
-            "Brīvajā laikā zīmēju, dodos pastaigās un klausos mūziku. " +
-            "Es labprāt izmēģinu jaunas idejas un iedrošinu draugus " +
-            "nepadoties, ja kaut kas neizdodas ar pirmo reizi.";
+        "I am a creative and enterprising adventurer. " +
+        "I enjoy taking photos, exploring new places, and " +
+        "noticing unusual details in everyday life.\n\n" +
+        "In my free time, I draw, go for walks, and listen to music. " +
+        "I enjoy trying out new ideas and encourage my friends " +
+        "not to give up when something does not work on the first try.";
 
     private void Start()
     {
